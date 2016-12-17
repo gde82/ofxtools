@@ -383,7 +383,7 @@ class STMTTRN(TRAN, ORIGCURRENCY):
     refnum = String(32)
     sic = Integer()
     payeeid = String(12)
-    name = String(32)
+    name = String(255)
     memo = String(255)
     inv401ksource = OneOf(*INV401KSOURCES)
 
